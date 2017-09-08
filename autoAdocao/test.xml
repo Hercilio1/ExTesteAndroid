@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutoAdocoes" parallel="false">
+    <test name="AVD1">
+        <parameter name="DEVICE_ID" value="0015326804" />
+        <parameter name="AppiumServerURL" value= "http://localhost:4723/wd/hub" />
+        <parameter name="tipoDevice" value="Android"/>
+        <parameter name="appName" value="/Users/thialves/Downloads" />
+        <classes>
+            <class name="Login.LoginTest"/>
+            <methods>
+                <include name="testLoginAndroid" />
+            </methods>
+        </classes>
+    </test>
+    <!--   <test name="ASUS_Z00L_63">
+        <parameter name="DEVICE_ID" value="FCAZB601B788"/>
+        <parameter name="AppiumServerURL" value= "http://localhost:4723/wd/hub" />
+        <parameter name="tipoDevice" value="iOS"/>
+        <parameter name="appName" value="/Users/thialves/Downloads/Builds/sicmobi_android_tip_1.0.0.1410.apk" />
+          <classes>
+            <class name="test.java.loginTest" />
+              <methods>
+                  <include name="testLoginTestIOS" />
+              </methods>
+          </classes>
+      </test> -->
+    <!-- Test -->
+</suite> <!-- Suite -->
